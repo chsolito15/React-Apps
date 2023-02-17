@@ -1,6 +1,6 @@
 import img1 from './images/netFlix.png';
 
-export default function NavBar(){
+export default function NetFlix(){
 
     return <div>
         <div className='contaniner'>
