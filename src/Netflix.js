@@ -5,7 +5,7 @@ export default function NetFlix(){
     return <div>
         <div className='contaniner'>
     <nav className="nav">
-        <a href="/" className="site-title"><img className='logo' src={img1}/></a>
+        <a href="/" className="site-title"><img className='logo' src={img1} alt="Netflix"/></a>
         <ul> 
             <li><a href="/romantic">Romantic</a></li>
             <li><a href="/comedy">Comedy</a></li>
