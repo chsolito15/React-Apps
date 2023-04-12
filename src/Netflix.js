@@ -1,9 +1,11 @@
+import React from 'react';
 import img1 from './images/netFlix.png';
 
 export default function NetFlix(){
 
-    return <div>
-        <div className='contaniner'>
+    return(<React.Fragment>
+        
+<div className='contaniner'>
     <nav className="nav">
         <a href="/" className="site-title"><img className='logo' src={img1} alt="Netflix"/></a>
         <ul> 
@@ -16,18 +18,20 @@ export default function NetFlix(){
         </ul>
 
     </nav>
-    <div className="video-content">
+    <section className="video-content">
         <iframe className='video-items' width="400" height="250" src="https://www.youtube.com/embed/sNO4X__dagA" title="The Tinder Swindler | Official Clip - The Man With Many Names | Netflix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <iframe className='video-items' width="400" height="250" src="https://www.youtube.com/embed/IE8HIsIrq4o" title="The Adam Project | Official Trailer | Netflix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <iframe className='video-items' width="400" height="250" src="https://www.youtube.com/embed/P-E-IGQCsPo" title="The Sea Beast | Official Trailer | Netflix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <iframe className='video-items' width="400" height="250" src="https://www.youtube.com/embed/Di310WS8zLk" title="Wednesday Addams | Official Teaser | Netflix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <iframe className='video-items' width="400" height="250" src="https://www.youtube.com/embed/BmllggGO4pM" title="THE GRAY MAN | Official Trailer | Netflix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <iframe className='video-items' width="400" height="250" src="https://www.youtube.com/embed/SL9aJcqrtnw" title="DON’T LOOK UP | Official Teaser Trailer | Netflix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </div>
+    </section>
+</div>  {/* .container */}
+      
         <footer>
             <p> **This is just a fake portfolio. All the projects and contact details given are not real.</p>
             <p> © Created for Future Tech BootCamp</p>
         </footer>
-        </div>     
-</div>
+
+    </React.Fragment>)
 }
